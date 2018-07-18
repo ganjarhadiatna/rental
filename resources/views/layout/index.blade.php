@@ -149,39 +149,14 @@
 	</script>
 </head>
 <body>
-	<div id="header">
-		<div class="place">
-			<div class="menu">
-				<div class="pos lef">
-					<a href="{{ url('/dashboard') }}">
-						<!--
-						<span class="logo">
-							<img src="{{ asset('/img/lg.png') }}" alt="">
-						</span>
-						-->
-						<span class="usr">
-							<h2>LOGIN AS ADMIN</h2>
-						</span>
-					</a>
-				</div>
-				<div class="pos mid">
-					<div style="position: relative; top: 7px;">
-						<h2>RENTAL MOBIL</h2>
-						<strong>Bandung</strong>
-					</div>
-				</div>
-				<div class="pos rig">
-					<button class="btn btn-main-color" onclick="logOut()">
-						<span class="fa fa-lg fa-power-off"></span>
-						<span>Logout</span>
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div id="body" class="col-full">
 		<div id="side">
 			<ul id="side-menu">
+				<div class="here bdr-bottom">
+					<div class="usr">
+						<h2>Options</h2>
+					</div>
+				</div>
 				<div class="here">
 					<strong>Main</strong>
 					<a href="{{ url('/dashboard') }}">
@@ -223,7 +198,7 @@
 				</div>
 				<div class="here">
 					<strong>Tools</strong>
-					<li onclick="logOut()">
+					<li onclick="logOut()" style="cursor: pointer;">
 						<span class="icn fa fa-lg fa-power-off"></span>
 						<span class="ttl">Logout</span>
 					</li>
@@ -231,6 +206,33 @@
 			</ul>
 		</div>
 		<div id="main">
+			<!--
+			<div id="header">
+				<div class="place">
+					<div class="menu">
+						<div class="pos lef">
+							<a href="{{ url('/dashboard') }}">
+								<span class="usr">
+									<h2>LOGIN AS ADMIN</h2>
+								</span>
+							</a>
+						</div>
+						<div class="pos mid">
+							<div style="position: relative; top: 7px;">
+								<h2>RENTAL MOBIL</h2>
+								<strong>Bandung</strong>
+							</div>
+						</div>
+						<div class="pos rig">
+							<button class="btn btn-main-color" onclick="logOut()">
+								<span class="fa fa-lg fa-power-off"></span>
+								<span>Logout</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			-->
 			@yield("content")
 		</div>
 	</div>

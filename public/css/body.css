@@ -10,7 +10,8 @@
 }
 #body #main {
 	grid-column: 2;
-	width: 96%;
+	width: calc(100% - 40px);
+	padding: 0 20px;
 	margin: auto;
 }
 #body #main h1 {
@@ -21,7 +22,7 @@
 #body #side ul {
 	position: fixed;
 	width: 300px;
-	height: calc(100% - 70px);
+	height: 100vh;
 	background-color: #fff;
 	overflow-y: auto;
 	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);	
@@ -29,8 +30,11 @@
 #body #side ul a {
 	text-decoration: none;
 }
-#body #side ul .here {
-	border-bottom: 0px #ededed solid;
+#body #side ul .here .usr {
+	position: relative;
+	width: calc(100% - 15px);
+	padding: 15px 7.5px;
+	color: #555;
 }
 #body #side ul .here strong {
 	height: 30px;
@@ -221,7 +225,7 @@
 }
 .frame-reservasi .here p {
 	font-size: 14px;
-	font-weight: 900;
+	font-weight: 500;
 	line-height: 1.5;
 	margin-bottom: 5px;
 }
