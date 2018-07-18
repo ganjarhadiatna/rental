@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	outline: none;
+}
+html {
+	background-color: #f0f0f0;
+}
+.col-full {
+	width: 1100px;
+	margin: 0 auto;
+}
+.btn {
+	position: relative;
+	height: 40px;
+	padding: 0 15px;
+	cursor: pointer;
+	font-size: 15px;
+	border-radius: 3px;
+	font-weight: 900;
+}
+.btn-main-color {
+	background-color: #2980b9;
+	color: #fff;
+	box-shadow: 0 0 0 1px #2980b9;
+}
+.btn-primary-color {
+	background-color: #fff;
+	color: rgba(0,0,0,0.84);
+}
+.btn-sekunder-color {
+	background-color: #fff;
+	color: #2980b9;
+	box-shadow: 0 0 0 1px #2980b9;
+}
+.btn-bebas-color {
+	background-color: #009a9a;
+	color: #fff;
+}
+.btn-disewa-color {
+	background-color: #9a0000;
+	color: #fff;
+}
+
+.select {
+	padding: 10px;
+	font-size: 14px;
+	background-color: #fff;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+}
+
+.editable {
+	min-height: 50px;
+	max-height: 200px;
+	max-width: 95%;
+	min-width: 95%;
+	width: 100%;
+	padding: 2.5%;
+	overflow-y: auto;
+	border-radius: 3px;
+}
+
+.maincolor {
+	color: #2980b9;
+}
+
+.txt {
+	position: relative;
+	width: 95%;
+	padding: 10px 2.5%;
+	font-size: 14px;
+	border-radius: 3px;
+}
+.txt-main-color {
+	background-color: #fff;
+	color: #555;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+}
+.txt-main-color:focus {
+	background-color: #f0f0f0;
+}
+.txt[type="text"]:disabled {
+	background-color: #f0f0f0;
+}
+
+.padding-bottom {
+	padding: 20px 0;
+	color: #555;
+	text-align: center;
+	font-size: 14px;
+}
+
+#alert {
+	position: relative;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	display: none;
+}
+#alert #message {
+	color: #ff0000;
+}

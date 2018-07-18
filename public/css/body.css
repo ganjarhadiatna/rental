@@ -1,0 +1,350 @@
+#body {
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 300px 1fr;
+}
+#body #side {
+	grid-column: 1;
+	width: 100%;
+}
+#body #main {
+	grid-column: 2;
+	width: 96%;
+	margin: auto;
+}
+#body #main h1 {
+	text-align: center;
+	margin-top: 20px;
+	color: #555;
+}
+#body #side ul {
+	position: fixed;
+	width: 300px;
+	height: calc(100% - 70px);
+	background-color: #fff;
+	overflow-y: auto;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);	
+}
+#body #side ul a {
+	text-decoration: none;
+}
+#body #side ul .here {
+	border-bottom: 0px #ededed solid;
+}
+#body #side ul .here strong {
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+	margin-left: 10px;
+	font-size: 14px;
+}
+#body #side ul li {
+	list-style: none;
+	width: 90%;
+	padding: 20px 5%;
+	color: #555;
+	font-size: 14px;
+}
+#body #side ul li:hover {
+	background-color: #2980b9;
+	color: #fff;
+}
+#body #side ul li.active {
+	background-color: #2980b9;
+	color: #fff;
+}
+#body #side ul li .icn {
+	width: 40px;
+	text-align: center;
+}
+
+.panel-tool {
+	height: 60px;
+}
+.panel-tool h1 {
+	float: left;
+}
+.panel-tool .panel-menu {
+	top: 20px;
+	float: right;
+}
+.panel-menu {
+	position: relative;
+	width: 300px;
+	height: 40px;
+	box-shadow: 0 0 0 2px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	overflow: hidden;
+	margin: auto;
+	margin-bottom: 15px;
+}
+.panel-menu ul li {
+	list-style: none;
+	float: left;
+	width: 33.33%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #ffff;
+	color: rgba(0,0,0,0.48);
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.panel-menu ul li.active {
+	background-color: #2980b9;
+	color: #fff;
+}
+
+.frame-home-2 {
+	position: relative;
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.frame-home {
+	position: relative;
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.frame-car {
+	width: calc(33.33% - 20px);
+	height: 100%;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+	background-color: #fff;
+	margin: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.frame-car:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.frame-car .top {
+	width: 100%;
+	padding-bottom: 80%;
+	background-color: #fff;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom: 1px #ededed solid;
+	cursor: pointer;
+}
+.frame-car .top .clr {
+	color: #fff;
+	background-color: rgba(0,0,0,0.7);
+	padding: 5px 10px;
+	float: left;
+	font-size: 14px;
+}
+.frame-car .top .stt {
+	color: #fff;
+	padding: 5px 10px;
+	float: right;
+	font-size: 14px;
+}
+.frame-car .top .stt.sewa {
+	background-color: #c0392b;
+}
+.frame-car .mid {
+	background-color: #fff;
+	width: 95%;
+	padding: 2.5%;
+	color: rgba(0,0,0,0.84);
+	border-bottom: 1px #ededed solid;
+}
+.frame-car .bot {
+	background-color: #fff;
+	width: 95%;
+	padding: 2.5%;
+}
+.frame-car .bot .btn {
+	width: 100%;
+}
+.reservasi {
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 400px;
+	grid-gap: 20px;
+}
+.reservasi .main {
+	grid-column: 1;
+	position: relative;
+	width: 100%;
+}
+.reservasi .side {
+	grid-column: 2;
+	position: relative;
+	width: 100%;
+}
+.reservasi .side .here .btm {
+	margin-top: 12px;
+}
+.reservasi .side .here .foto-detail {
+	background-size: 100%;
+	padding-bottom: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.frame-reservasi {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+.frame-reservasi .here {
+	position: relative;
+	width: 100%;
+	color: #555;
+}
+.frame-reservasi .here table th {
+	border-bottom: 1px #ededed solid;
+}
+.frame-reservasi .here table tr td {
+	padding: 10px;
+	font-size: 14px;
+}
+.frame-reservasi .here table tr td a {
+	text-decoration: none;
+}
+.frame-reservasi .here table tr td .bg {
+	width: 100%;
+}
+.frame-reservasi .here table tr td .status {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+}
+.frame-reservasi .here p {
+	font-size: 14px;
+	font-weight: 900;
+	line-height: 1.5;
+	margin-bottom: 5px;
+}
+.frame-reservasi .here .btn {
+	width: 100%;
+}
+.reservasi-side {
+	position: fixed;
+	width: 360px;
+}
+
+.room {
+	width: 96%;
+}
+.room .frame-reservasi {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.room .frame-reservasi h2 {
+	margin-bottom: 20px;
+}
+.room .frame-reservasi .print {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 150px;
+	float: right;
+}
+.room .frame-reservasi .print .btn {
+	width: 100%;
+	height: 40px;
+}
+.room .frame-reservasi .plus {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+}
+.room .frame-reservasi .plus .panel-menu {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	float: right;
+}
+.room .frame-reservasi .plus .btn {
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+.room .room-status {
+	position: relative;
+	display: inline-block;
+	width: 230px;
+	margin-bottom: 10px;
+}
+.room .room-status .hdr {
+	position: relative;
+	width: 80px;
+	font-weight: 900;
+	display: inline-block;
+}
+.reservasi .frame-reservasi .here {
+	margin-bottom: 15px;
+}
+.room .frame-reservasi .here .txt {
+	width: 80%;
+	display: inline-block;
+}
+.room .frame-reservasi .here .src {
+	width: 13%;
+	height: 40px;
+	float: right;
+}
+
+.room .here .btn {
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	font-size: 14px;
+}
+
+.room table {
+	width: 100%;
+	border-top: 1px #ededed solid;
+}
+.room table tr {
+	border: 0;
+	border-bottom: 1px #ededed solid;
+}
+.room table tr th {
+	padding: 10px;
+	text-align: center;
+}
+.room table tr td {
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+.room table .foto {
+	width: 80px;
+	height: 80px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#foto {
+	display: none;
+}
+.frame-foto {
+	width: 100%;
+	height: 300px;
+	line-height: 300px;
+	text-align: center;
+	background-color: #f0f0f0;
+	border: 2px rgba(0,0,0,0.5) dashed;
+	cursor: pointer;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.frame-foto .fa {
+	font-size: 30px;
+}
