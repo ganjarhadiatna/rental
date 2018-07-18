@@ -3,6 +3,7 @@
 @section('content')
 <div class="frame-home">
 	<div class="room">
+		<!--
 		<div class="frame-reservasi">
 			<div class="here">
 				<input type="text" name="check-in" placeholder="Cari Penyewa..." class="txt txt-main-color">
@@ -11,6 +12,7 @@
 				</button>
 			</div>
 		</div>
+		-->
 		<div class="frame-reservasi">
 			<div class="here">
 				<h2>Daftar Penyewa</h2>

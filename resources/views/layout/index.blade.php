@@ -165,8 +165,10 @@
 					</a>
 				</div>
 				<div class="pos mid">
-					<h2>RENTAL MOBIL</h2>
-					<strong>Bandung</strong>
+					<div style="position: relative; top: 7px;">
+						<h2>RENTAL MOBIL</h2>
+						<strong>Bandung</strong>
+					</div>
 				</div>
 				<div class="pos rig">
 					<button class="btn btn-main-color" onclick="logOut()">
